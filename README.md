@@ -27,6 +27,17 @@
 | **Shipt** | Full-Stack Engineer | 2020‑21 | Real-time fulfillment routing for up to **2.5M** active orders |
 | **Daxko** | Software Engineer | 2019 | Spring Boot transaction workflows, **−20%** defects |
 
+### 🛠️ Featured project: Flowsmith
+
+**Plain English in. Validated workflows out.** Describe an automation and Flowsmith retrieves the right apps, plans a workflow with Claude (or an offline planner), and checks every step and data reference with a deterministic validator. Invalid plans go back to the model with structured hints for a correction pass.
+
+<p>
+  <a href="https://apollo0229.github.io/flowsmith/"><img alt="Live demo" src="https://img.shields.io/badge/Live%20demo-try%20it-4f46e5?style=for-the-badge"></a>
+  <a href="https://github.com/Apollo0229/flowsmith"><img alt="Source" src="https://img.shields.io/badge/Source-flowsmith-24292f?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+TypeScript · React 19 · Vite · Claude Opus 5.5 (structured outputs) · BM25 retrieval · Vitest · GitHub Actions
+
 ### Featured case studies
 
 - 🤖 **[Natural Language to Workflow Engine](https://apollo0229.github.io/portfolio/projects/natural-language-workflow-engine/)**: LLM router, vector retrieval and deterministic graph validation, **91%** zero-shot success.
@@ -38,6 +49,7 @@ All ten case studies, with architecture diagrams: **[apollo0229.github.io/portfo
 
 ### On this account
 
+- **[flowsmith](https://github.com/Apollo0229/flowsmith)**: natural-language → validated workflow engine with a live demo. TypeScript, React, Claude.
 - **[portfolio](https://github.com/Apollo0229/portfolio)** — my portfolio site: Next.js 16, React 19, Tailwind v4, Motion, static export to GitHub Pages.
 - **[ai-customer-support-platform](https://github.com/Apollo0229/ai-customer-support-platform)** — *in progress:* AI customer support on Next.js, FastAPI, PostgreSQL and Redis.
 
