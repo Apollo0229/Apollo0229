@@ -37,6 +37,7 @@ An event pipeline built to survive crashes. Each webhook and its outbox message 
 - **Load-tested:** 1,000 webhooks/s at 55 ms p95. The load test exposed a Postgres `NOTIFY` bottleneck; removing it lifted ingest 4.4×.
 
 <p>
+  <a href="https://apollo0229.github.io/relay/"><img alt="Crash-test replay" src="https://img.shields.io/badge/Crash--test%20replay-watch%20it-4f46e5?style=for-the-badge"></a>
   <a href="https://github.com/Apollo0229/relay"><img alt="Source" src="https://img.shields.io/badge/Source-relay-24292f?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
@@ -64,7 +65,7 @@ All ten case studies, with architecture diagrams: **[apollo0229.github.io/portfo
 
 ### On this account
 
-- **[relay](https://github.com/Apollo0229/relay)**: crash-tested webhook pipeline with a transactional outbox, Kafka and exactly-once workers. Python, Go, React.
+- **[relay](https://github.com/Apollo0229/relay)**: crash-tested webhook pipeline with a transactional outbox, Kafka and exactly-once workers, with a [replay of the crash test](https://apollo0229.github.io/relay/). Python, Go, React.
 - **[flowsmith](https://github.com/Apollo0229/flowsmith)**: natural-language → validated workflow engine with a live demo. TypeScript, React, Claude.
 - **[portfolio](https://github.com/Apollo0229/portfolio)** — my portfolio site: Next.js 16, React 19, Tailwind v4, Motion, static export to GitHub Pages.
 - **[ai-customer-support-platform](https://github.com/Apollo0229/ai-customer-support-platform)** — *in progress:* AI customer support on Next.js, FastAPI, PostgreSQL and Redis.
